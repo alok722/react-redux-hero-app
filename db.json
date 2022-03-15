@@ -1,20 +1,204 @@
 {
-  "tutorials": [
+  "hero": [
     {
-      "title": "Test",
-      "description": "TESTTTTTT",
-      "id": 1
+      "name": "Scorpia",
+      "id": 1,
+      "realName": "Elaine Coll",
+      "firstAppearance": "Spider-Man: Power of Terror limited series #2 (1995)",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/580-scorpia.jpg"
     },
     {
-      "title": "Alok",
-      "description": "Alok",
-      "id": 2
+      "name": "Hope Summers",
+      "id": 2,
+      "realName": "Hope Summers",
+      "firstAppearance": "X-Men Vol 2 205 (2008)",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/330-hope-summers.jpg"
     },
     {
+      "name": "Kevin 11",
       "id": 3,
-      "title": "Pranav",
-      "description": "Pranav",
-      "published": true
+      "realName": "Kevin Ethan Peterson",
+      "firstAppearance": "Ben 10 S01",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/382-kevin-11.jpg"
+    },
+    {
+      "name": "Jason Bourne",
+      "id": 4,
+      "realName": "Jason Bourne",
+      "firstAppearance": "-",
+      "publisher": null,
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/355-jason-bourne.jpg"
+    },
+    {
+      "name": "Savage Dragon",
+      "id": 5,
+      "realName": "Kurr",
+      "firstAppearance": "-",
+      "publisher": "Image Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/575-savage-dragon.jpg"
+    },
+    {
+      "name": "Cyclops",
+      "id": 6,
+      "realName": "Scott Summers",
+      "firstAppearance": "X-Men #1 (September, 1963)",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/196-cyclops.jpg"
+    },
+    {
+      "name": "Buffy",
+      "id": 7,
+      "realName": "Buffy Anne Summers",
+      "firstAppearance": "Dark Horse Presents 1998 Annual",
+      "publisher": "Dark Horse Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/140-buffy.jpg"
+    },
+    {
+      "name": "Cheetah",
+      "id": 8,
+      "realName": "Priscilla Rich",
+      "firstAppearance": "Wonder Woman Vol1 #6 (Fall 1943)",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/172-cheetah.jpg"
+    },
+    {
+      "name": "Data",
+      "id": 9,
+      "realName": "Data",
+      "firstAppearance": "-",
+      "publisher": "Star Trek",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/210-data.jpg"
+    },
+    {
+      "name": "Ink",
+      "id": 10,
+      "realName": "Eric Gitter",
+      "firstAppearance": "Young X-Men #1 (May, 2008)",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/343-ink.jpg"
+    },
+    {
+      "name": "Mister Freeze",
+      "id": 11,
+      "realName": "Victor Fries",
+      "firstAppearance": "Batman #121 (Feb. 1959)",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/457-mister-freeze.jpg"
+    },
+    {
+      "name": "Ajax",
+      "id": 12,
+      "realName": "Francis",
+      "firstAppearance": "Deadpool #14 (March, 1998)",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/13-ajax.jpg"
+    },
+    {
+      "name": "Moses Magnum",
+      "id": 13,
+      "realName": "Moses Magnum",
+      "firstAppearance": "Giant-Size Spider-Man #4 (1975)",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/474-moses-magnum.jpg"
+    },
+    {
+      "name": "Sobek",
+      "id": 14,
+      "realName": "Yurrd the Unknown",
+      "firstAppearance": "52 Week Twenty-Six",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/608-sobek.jpg"
+    },
+    {
+      "name": "Angel Salvadore",
+      "id": 15,
+      "realName": "Angel Salvadore Bohusk",
+      "firstAppearance": "New X-Men #118 (November, 2001)",
+      "publisher": "Tempest",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/26-angel-salvadore.jpg"
+    },
+    {
+      "name": "Magus",
+      "id": 16,
+      "realName": "",
+      "firstAppearance": "New Mutants #18 (1984)",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/425-magus.jpg"
+    },
+    {
+      "name": "Red Skull",
+      "id": 17,
+      "realName": "Johann Shmidt",
+      "firstAppearance": "Captain America Comics #1 (1941), (modern) Tales of Suspense #66 (1965)",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/550-red-skull.jpg"
+    },
+    {
+      "name": "Amazo",
+      "id": 18,
+      "realName": "",
+      "firstAppearance": "Brave and the Bold #30 (July, 1960)",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/20-amazo.jpg"
+    },
+    {
+      "name": "Steppenwolf",
+      "id": 19,
+      "realName": "",
+      "firstAppearance": "The New Gods #7",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/637-steppenwolf.jpg"
+    },
+    {
+      "name": "Offspring",
+      "id": 20,
+      "realName": "Luke O'Brian",
+      "firstAppearance": "-",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/499-offspring.jpg"
+    },
+    {
+      "name": "Punisher",
+      "id": 21,
+      "realName": "Frank Castle",
+      "firstAppearance": "AMAZING SPIDER-MAN #129",
+      "publisher": "Marvel Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/530-punisher.jpg"
+    },
+    {
+      "name": "Killer Frost",
+      "id": 22,
+      "realName": "Caitlin Snow",
+      "firstAppearance": "Fury of Firestorm: The Nuclear Men #19",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/387-killer-frost.jpg"
+    },
+    {
+      "name": "Mister Freeze",
+      "id": 23,
+      "realName": "Victor Fries",
+      "firstAppearance": "Batman #121 (Feb. 1959)",
+      "publisher": "DC Comics",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/457-mister-freeze.jpg"
+    },
+    {
+      "name": "Naruto Uzumaki",
+      "id": 24,
+      "realName": "",
+      "firstAppearance": "-",
+      "publisher": "Shueisha",
+      "images": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/485-naruto-uzumaki.jpg"
+    },
+    {
+      "name": "Spider Man",
+      "realName": "Peter Parker",
+      "firstAppearance": "Amazing Fantasy",
+      "publisher": "Temp",
+      "images": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_FMjpg_UX1000_.jpg",
+      "id": 25
     }
   ]
 }

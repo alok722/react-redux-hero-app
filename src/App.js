@@ -1,27 +1,23 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "bootswatch/dist/zephyr/bootstrap.min.css";
 import "./App.css";
 
-import AddTutorial from "./components/AddTutorial";
-import Tutorial from "./components/Tutorial";
-import TutorialsList from "./components/TutorialsList";
+import Hero from "./components/Hero";
+import HeroList from "./components/HeroList";
 
 function App() {
   return (
     <Router>
-      <nav className="navbar navbar-expand navbar-dark bg-dark">
-        <a href="/tutorials" className="navbar-brand">
-          bezKoder
+      <nav className="navbar navbar-collapse navbar-dark bg-primary">
+        <a href="/hero" className="navbar-brand ms-2">
+          React Academy
         </a>
-        <div className="navbar-nav mr-auto">
+        <div className="navbar-nav">
           <li className="nav-item">
-            <Link to={"/tutorials"} className="nav-link">
-              Tutorials
-            </Link>
           </li>
-          <li className="nav-item">
-            <Link to={"/add"} className="nav-link">
+          <li className="nav-item me-2">
+            <Link to={"/add"} className="nav-link px-3">
               Add
             </Link>
           </li>
@@ -30,9 +26,9 @@ function App() {
 
       <div className="container mt-3">
         <Switch>
-          <Route exact path={["/", "/tutorials"]} component={TutorialsList} />
-          <Route exact path="/add" component={AddTutorial} />
-          <Route path="/tutorials/:id" component={Tutorial} />
+          <Route exact path={["/", "/hero"]} component={HeroList} />
+          <Route exact path="/add" component={Hero} />
+          <Route path="/hero/:id" component={Hero} />
         </Switch>
       </div>
     </Router>
