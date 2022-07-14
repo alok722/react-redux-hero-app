@@ -1,81 +1,48 @@
-# React Hooks + Redux CRUD example with Axios & Web API
-Build React Redux Tutorial Application with Rest API calls in that:
-- Each Tutorial has id, title, description, published status.
-- We can create, retrieve, update, delete Tutorials.
-- There is a Search bar for finding Tutorials by title.
+<h1 align="center">welcome to react-redux-hero-app 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Maintenance" src="https://img.shields.io/badge/Maintained-yes-blue.svg" />
+</p>
 
-![react-hooks-redux-crud-example](react-hooks-redux-crud-example.png)
+> react-redux-hero-app - Demo of React Hooks + Redux CRUD example with Axios & Web API
 
-Redux Store:
+## 👀 demo
 
-![react-hooks-redux-crud-example-redux-store-architecture](react-hooks-redux-crud-example-redux-store-architecture.png)
+Homepage
+![](demo/homepage.PNG)
 
-For instruction, please visit:
-> [React Hooks + Redux CRUD example with Axios & Web API](https://bezkoder.com/react-hooks-redux-crud/)
+Add Hero
+![](demo/add-hero.PNG)
 
-More Practice:
-> [React Hooks (without Redux) CRUD example with Axios and Web API](https://bezkoder.com/react-hooks-crud-axios-api/)
+Edit Hero
+![](demo/edit-hero.PNG)
 
-> [React Table example: CRUD App with react-table v7](https://bezkoder.com/react-table-example-hooks-crud/)
+## 🛠 usage
 
-> [React Pagination using Hooks example](https://bezkoder.com/react-pagination-hooks/)
+```sh
+$ git clone https://github.com/alok722/react-redux-hero-app.git
 
-> [React Hooks File Upload example](https://bezkoder.com/react-hooks-file-upload/)
+$ cd react-redux-hero-app
 
-> [React Hooks: JWT Authentication & Authorization example](https://bezkoder.com/react-hooks-jwt-auth/)
+$ yarn
 
-> [React + Redux + Hooks: JWT Authentication & Authorization example](https://bezkoder.com/react-hooks-redux-login-registration-example/)
-
-Fullstack with Node.js Express:
-> [React + Node.js Express + MySQL](https://bezkoder.com/react-node-express-mysql/)
-
-> [React + Node.js Express + PostgreSQL](https://bezkoder.com/react-node-express-postgresql/)
-
-> [React + Node.js Express + MongoDB](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
-
-Fullstack with Spring Boot:
-> [React + Spring Boot + MySQL](https://bezkoder.com/react-spring-boot-crud/)
-
-> [React + Spring Boot + PostgreSQL](https://bezkoder.com/spring-boot-react-postgresql/)
-
-> [React + Spring Boot + MongoDB](https://bezkoder.com/react-spring-boot-mongodb/)
-
-Fullstack with Django:
-> [React.js Hooks + Django Rest Framework](https://bezkoder.com/django-react-hooks/)
-
-Serverless with Firebase:
-> [React Firebase Hooks: CRUD App with Realtime Database example](https://bezkoder.com/react-firebase-hooks-crud/)
-
-> [React Hooks Firestore example: CRUD App](https://bezkoder.com/react-hooks-firestore/)
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Set port
-.env
-```
-PORT=8081
+$ yarn start
 ```
 
-## Project setup
+## 👤 author
 
-In the project directory, you can run:
+**Alok raj (alokr417@gmail.com)**
 
-```
-npm install
-# or
-yarn install
-```
+- website: https://bit.do/alok722
+- github: [@alok722](https://github.com/alok722)
+- linkedin: [@alok722](https://linkedin.com/in/alok722)
 
-or
+## 🤝 contributing
 
-### Compiles and hot-reloads for development
+contributions, issues and feature requests are welcome!
 
-```
-npm start
-# or
-yarn start
-```
+## 🙌 show your support
 
-Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
+give a ⭐️ if this project helped you!
 
-The page will reload if you make edits.
+---
